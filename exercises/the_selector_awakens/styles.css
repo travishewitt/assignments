@@ -14,12 +14,13 @@ p {
     line-height: 180%;
 }
 
-span.credits {
+.credits {
     text-decoration: underline;
     color: #49DAFF;
+    cursor: pointer; cursor: hand;
 }
 
-p#film-description {
+#film-description {
     font-size: 10px;
     font-style: italic;
 }
