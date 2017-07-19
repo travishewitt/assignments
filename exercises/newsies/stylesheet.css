@@ -1,0 +1,26 @@
+div {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+img {
+    display: inline;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+span {
+    text-decoration: underline;
+}
+
+#colorThis {
+    color: red;
+}
