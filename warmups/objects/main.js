@@ -84,3 +84,18 @@ console.log(person.friends);
 //["kimmy", "jimmy", "timmy"]
 console.log(lastPerson);
 //"Bob"
+
+
+//Jimmy has changed his name to james. 
+
+person.friends[1] = "James";
+//that was easy!
+
+//I hate timmy, now, so let's remove him.
+
+person.friends.splice(2, 1)
+//the first argument takes the index, and the second removes a certain amount of values after that index
+
+
+person.friends.indexOf("Jimmy");
+//that'll show the index of the value "jimmy". It only shows the first instance of "jimmy". It is useful for huge arrays.
