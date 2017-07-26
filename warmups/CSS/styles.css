@@ -44,74 +44,36 @@
 
 @media (max-width:1000px) {
     #topBlock {
-        background-color: #F5C6D6;
         height: 150px;
-        width: 100% display: inline-block;
-        border: 10px white solid;
     }
     .pinkBoxes {
-        background-color: #EE2E84;
-        display: inline-block;
         height: 150px;
-        width: 25%;
-        border: 10px white solid;
     }
     .blueBoxes {
-        background-color: #85CFD8;
-        display: inline-block;
         height: 150px;
-        width: 50%;
-        border: 10px white solid;
     }
     #greenBox {
-        background-color: #8DC63F;
-        display: inline-block;
         height: 150px;
-        width: 75%;
-        border: 10px white solid;
     }
     #orangeBox {
-        background-color: #E76E34;
-        display: inline-block;
         height: 150px;
-        width: 25%;
-        border: 10px white solid;
     }
 }
 
 @media (max-width:768px) {
     #topBlock {
-        background-color: #F5C6D6;
-        height: 150px;
-        width: 100% display: inline-block;
-        border: 10px white solid;
+        width: 100% 
     }
     .pinkBoxes {
-        background-color: #EE2E84;
-        display: inline-block;
-        height: 150px;
         width: 100%;
-        border: 10px white solid;
     }
     .blueBoxes {
-        background-color: #85CFD8;
-        display: inline-block;
-        height: 150px;
         width: 100%;
-        border: 10px white solid;
     }
     #greenBox {
-        background-color: #8DC63F;
-        display: inline-block;
-        height: 150px;
         width: 100%;
-        border: 10px white solid;
     }
     #orangeBox {
-        background-color: #E76E34;
-        display: inline-block;
-        height: 150px;
         width: 100%;
-        border: 10px white solid;
     }
 }
