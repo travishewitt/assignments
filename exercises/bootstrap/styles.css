@@ -1,0 +1,24 @@
+* {
+    height: 12em;
+    border: white solid 0.5em;
+}
+
+.col-xs-12 {
+    background-color: #F5C6D6;
+}
+
+.col-xs-3 {
+    background-color: #EE2E84;
+}
+
+.col-xs-6 {
+    background-color: #85CFD8;
+}
+
+.col-xs-8 {
+    background-color: #8DC63F;        
+}
+
+.col-xs-4 {
+    background-color: #E76E34;
+}
