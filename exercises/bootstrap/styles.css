@@ -22,3 +22,9 @@
 .col-xs-4 {
     background-color: #E76E34;
 }
+
+#clickMe {
+text-align: center;
+padding-top: 5em;
+    border-radius: 5em;
+}
