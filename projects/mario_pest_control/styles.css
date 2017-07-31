@@ -1,0 +1,24 @@
+.container {
+    background-color: #a2aef9;
+}
+
+#header {
+    text-align: center;
+    font-size: 5em;
+    margin-top: 1em;
+    color: #fadecb;
+    border: #f1dacf solid 0.25em;
+    background-color: #ce612f;
+    border-radius: 25px;
+}
+
+.col-md-4 {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 2.5em;
+}
+
+.invoice-images {
+    height: 150px;
+    width: auto;
+}
