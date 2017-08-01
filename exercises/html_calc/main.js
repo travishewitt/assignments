@@ -21,6 +21,12 @@ document.getElementById("multButton").addEventListener("click", function () {
     document.getElementById("multOutput").innerHTML = multiplicationOutput;
 })
 
+document.getElementById("divButton").addEventListener("click", function () {
+    var divInput1 = document.getElementById("div-input1").value;
+    var divInput2 = document.getElementById("div-input2").value;
+    var divOutput = divInput1 / divInput2;
+    document.getElementById("divOutput").innerHTML = divOutput;
+})
 document.getElementById("clear").addEventListener("click", function () {
     document.getElementById("add-input1").value = "";
     document.getElementById("add-input2").value = "";
