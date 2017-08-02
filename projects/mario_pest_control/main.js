@@ -1,3 +1,4 @@
+
 var goombaPrice = parseInt(document.getElementById("goomb-price").textContent);
 var bombPrice = parseInt(document.getElementById("bomb-price").textContent);
 var cheepPrice = parseInt(document.getElementById("cheep-price").textContent);

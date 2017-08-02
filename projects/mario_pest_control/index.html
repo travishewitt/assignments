@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 </head>
 
-<body>
-    <nav class="container-fluid">
+<body class="container-fluid">
+    <nav>
         <div class="row">
             <div class="col-lg-12 nav-bar">
                 Mario Pest Control
@@ -20,57 +20,57 @@
     <img src="https://r.mprd.se/media/images/46505-New_Super_Mario_Bros._(U)(Psyfer)-3.jpg" id="poop" alt="">
 
 
-    <div class="row back">
-        <div class="col-md-4 monster-title">Goombas</div>
-        <div class="col-md-4 monster-title">Bob-ombs</div>
-        <div class="col-md-4 monster-title">Cheep-cheeps</div>
-    </div>
-    <div class="row back">
-        <div class="col-md-4 back">
-            <img src="https://media3.giphy.com/media/HczKUqh2qtA2Y/200_s.gif" class="rounded float-left invoice-images" alt="goomba">
+    
+        <div class="row back">
+            <div class="col-md-4 monster-title">Goombas</div>
+            <div class="col-md-4 monster-title">Bob-ombs</div>
+            <div class="col-md-4 monster-title">Cheep-cheeps</div>
+        </div>
+        <div class="row back">
+            <div class="col-md-4 back">
+                <img src="https://media3.giphy.com/media/HczKUqh2qtA2Y/200_s.gif" class="rounded float-left invoice-images" alt="goomba">
 
-            <div class="row">
+                <div class="row">
 
-                <div class="col-md-12 invoice-info">Price: <img src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png" alt="" class="coin-size">x<span id="goomb-price">5</span>
+                    <div class="col-md-12 invoice-info">Price: <img src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png" alt="" class="coin-size">x<span id="goomb-price">5</span>
+                    </div>
+
+                    <div class="col-md-12 invoice-info">Quantity: <span><input type="text" id="goomb-quant"></span>
+                    </div>
+
+                    <div class="col-md-12 invoice-info">Total: <img src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png" alt="" class="coin-size">x<span id="goomba-total"></span>
+                    </div>
                 </div>
 
-                <div class="col-md-12 invoice-info">Quantity: <span><input type="text" id="goomb-quant"></span>
+            </div>
+            <div class="col-md-4 back">
+                <img src="https://vignette3.wikia.nocookie.net/mcleodgaming/images/3/39/Bob-omb.gif/revision/latest?cb=20100921005839" class="rounded float-left invoice-images" alt="bob-omb">
+                <div class="row margin-bot">
+                    <div class="col-md-12 invoice-info">Price: <img src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png" alt="" class="coin-size">x<span id="bomb-price">7</span></div>
+                    <div class="col-md-12 invoice-info">Quantity: <span><input type="text" id="bomb-quant"></span></div>
+                    <div class="col-md-12 invoice-info">Total: <img src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png" alt="" class="coin-size">x<span id="bomb-total"></span></div>
                 </div>
-
-                <div class="col-md-12 invoice-info">Total: <img src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png" alt="" class="coin-size">x<span id="goomba-total"></span>
+            </div>
+            <div class="col-md-4 back">
+                <img src="http://img05.deviantart.net/8ed2/i/2013/355/4/e/real_life_8_bit_cheep_cheep_by_brulescorrupted-d6fpqbt.png" class="rounded float-left invoice-images" alt="cheep-cheep">
+                <div class="row">
+                    <div class="col-md-12 invoice-info">Price: <img src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png" alt="" class="coin-size">x<span id="cheep-price">11</span>
+                        <div class="col-md-12 invoice-info">Quantity: <span><input type="text" id="cheep-quant"></span></div>
+                        <div class="col-md-12 invoice-info">Total: <img src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png" alt="" class="coin-size">x<span id="cheep-total"></span></div>
+                    </div>
                 </div>
             </div>
 
-        </div>
-        <div class="col-md-4 back">
-            <img src="https://vignette3.wikia.nocookie.net/mcleodgaming/images/3/39/Bob-omb.gif/revision/latest?cb=20100921005839" class="rounded float-left invoice-images" alt="bob-omb">
             <div class="row margin-bot">
-                <div class="col-md-12 invoice-info">Price: <img src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png" alt="" class="coin-size">x<span id="bomb-price">7</span></div>
-                <div class="col-md-12 invoice-info">Quantity: <span><input type="text" id="bomb-quant"></span></div>
-                <div class="col-md-12 invoice-info">Total: <img src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png" alt="" class="coin-size">x<span id="bomb-total"></span></div>
-            </div>
-        </div>
-        <div class="col-md-4 back">
-            <img src="http://img05.deviantart.net/8ed2/i/2013/355/4/e/real_life_8_bit_cheep_cheep_by_brulescorrupted-d6fpqbt.png" class="rounded float-left invoice-images" alt="cheep-cheep">
-            <div class="row">
-                <div class="col-md-12 invoice-info">Price: <img src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png" alt="" class="coin-size">x<span id="cheep-price">11</span>
-                    <div class="col-md-12 invoice-info">Quantity: <span><input type="text" id="cheep-quant"></span></div>
-                    <div class="col-md-12 invoice-info">Total: <img src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png" alt="" class="coin-size">x<span id="cheep-total"></span></div>
-                </div>
+                <button class="col-md-2 col-md-offset-4 btn btn-primary btn-lg grand-total" id="buttonGrand">Grand Total</button>
+                <div class="col-md-4 grand-total-int"><img src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png" alt="" class="coin-size">x<span id="grandTotal"></span></div>
             </div>
         </div>
 
-    <div class="row margin-bot">
-        <button class="col-md-2 col-md-offset-4 btn btn-primary btn-lg grand-total" id="buttonGrand">Grand Total</button>
-        <div class="col-md-4 grand-total-int"><img src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Coin-icon.png" alt="" class="coin-size">x<span id="grandTotal"></span></div>
-    </div>
 
 
 
-
-
-        <nav class="container-fluid">
-            <div class="row">
+        <nav>
                 <div class="footer" id="email">
                     its-a-me @ mario.com
                 </div>
@@ -80,7 +80,6 @@
                 <div class="footer" id="address">
                     123 Luigi Mansion, Mushroom Kingdom 12123
                 </div>
-            </div>
         </nav>
         <script src="main.js"></script>
 </body>
