@@ -13,6 +13,8 @@ function operate(num1, num2, operation) {
         return "Result: " + num1 * num2
     } else if (operation === "div") {
         return "Result: " + num1 / num2
+    } else {
+        console.log("Please enter a valid operation")
     }
 }
 
