@@ -1,3 +1,4 @@
+/*swedish
 .flag {
     background-color: #fdcf08;
     height: 600px;
@@ -37,3 +38,35 @@
     bottom: 0;
     right: 0;
 }
+*/
+
+/*switzerland*/
+.flag {
+    position: relative;
+    background-color: #ff0000;
+    height: 600px;
+    width: 600px;
+}
+
+.hor-stripe {
+    position: absolute;
+    background-color: white;
+    height: 100px;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vert-stripe {
+    position: absolute;
+    background-color: white;
+    height: 50%;
+    width: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+/*    transform: translateY(-50%);*/
+    
+}
+
