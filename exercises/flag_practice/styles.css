@@ -1,0 +1,47 @@
+.flag {
+    position: relative;
+    background-color: #002868;
+    height: 600px;
+    width: 1000px;
+}
+
+.flagbox {
+    position: absolute;
+    background-color: #ef2b2d;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 220px;
+    border-bottom: solid white 50px;
+    border-right: solid white 50px;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    height: 200px;
+    width: 220px;
+    border-top: solid white 50px;
+    border-right: solid white 50px;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    height: 200px;
+    width: 580px;
+    border-bottom: solid white 50px;
+    border-left: solid white 50px;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    height: 200px;
+    width: 580px;
+    border-top: solid white 50px;
+    border-left: solid white 50px;
+}
