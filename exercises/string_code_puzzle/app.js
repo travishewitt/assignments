@@ -1,6 +1,6 @@
 function puzzle(str) {
     var temp = "";
-    var puzzled = []
+    var puzzled = [];
     for (var i = 0; i < str.length; i++) {
        temp += str[i];
        puzzled.push(temp)
