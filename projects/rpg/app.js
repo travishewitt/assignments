@@ -1,4 +1,3 @@
-
 //var health = 3 hearts
 //can get potions
 //consider a playOneRound function (home base), and do a while loop, checking about conditions
@@ -40,7 +39,7 @@ function homeBase() {
     }
     if (limbs > 3 && steps > 9) {
         hasWon = true;
-        console.log("You have won!")
+        console.log("As you take a final step, and assemble all of your limbs, a blinding light bursts out of your eye-holes and turns everything around you into dust. 'Arghglghalghlal!' Your ancestors are proud, and you skip around with your " + limbs + " limbs, and play with the kittens and flowers. Everything is beautiful and rainbows and unicorns and flowers and kittens rain from the sky, and you live happily ever after.")
     }
     if (isAlive === true && hasWon === false) {
         var choices = ['Take a step!', 'Check your inventory!', 'Self-disintegrate, because this game is boring.'],
@@ -81,7 +80,8 @@ function move() {
         vitals();
         homeBase();
     } else {
-        console.log("You wobbled a step forward, without having disturbed anyone.");
+        console.log("Oh no! A kitten was hungry, and ate a piece off of you.");
+        yourHealth--;
         vitals();
         homeBase();
     }
@@ -108,14 +108,14 @@ function attack() {
         vitals();
         homeBase();
     } else if (result > 2 && result < 6) {
-        console.log("Your battle-cry worked! The monster was distracted by the hideous noise that came out of your jaw-less gullet, and you get the first strike. You kill the enemy, scavenge a limb, and find a potion! Search your inventory! You may drink your potion from the inventory to restore one health!");
-        limbs++;
+        console.log("Your battle-cry worked! The monster was distracted by the hideous noise that came out of your jaw-less gullet, and you get the first strike. You kill the enemy, and find a potion! Search your inventory! You may drink your potion from the inventory to restore one health!");
         inventory.push("Potion");
         vitals();
         homeBase();
     } else {
-        console.log("Your battle-cry performance was a monstrosity. Your ancestors are ashamed, and the monster feels bad for you. He backhands you for insulting your lineage, and then leaves. You lost part of your soul, that day.");
-        yourHealth -= 2;
+        console.log("Your battle-cry performance was a monstrosity. Your ancestors are ashamed, and the monster feels bad for you. He backhands you for insulting your lineage, and then leaves. Thankfully, you trip over a spare limb.");
+        yourHealth -= 3;
+        limbs++;
         vitals();
         homeBase();
     }
@@ -125,8 +125,7 @@ function flee() {
     rollTheDice();
     console.log("You attempted to flee from nondescriptively big and powerful monster.")
     if (result < 5) {
-        console.log("You got away, but the monster took a chunk of you for a souvenir to bring to its family. It thanks you, but you're in too much pain to say 'you're welcome'. Lose one health.")
-        yourHealth--;
+        console.log("You got away, but the monster took a chunk of you for a souvenir to bring to its family. It thanks you, but you're in too much pain to say 'you're welcome' So you gurgle instead: 'Arghalghghgghlologhlghl.' Lose one limb.");
         limbs--;
         vitals();
         homeBase();
@@ -145,5 +144,5 @@ function flee() {
     }
 }
  
-console.log("You wake up, really confused. Where are your limbs? Where is your nose? No one knows. Take ten steps through this wasteland, and collect all four of your limbs, and you shall find salvation.")
+console.log("You wake up, really confused. Where are your limbs? Where is your nose? No one knows. Take at least ten steps through this wasteland, and collect at least four of your limbs, (and possibly additional limbs, who knows? You might be some sort of limb hoarder, we won't judge you.) and you shall find salvation.")
 homeBase();
