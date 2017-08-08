@@ -41,11 +41,25 @@
 */
 
 /*switzerland*/
+
+
 .flag {
+    margin: auto;
     position: relative;
     background-color: #ff0000;
     height: 600px;
     width: 600px;
+    transition-property: border-radius, box-shadow, background-color, transform, width, height;
+    transition-duration: 1s;
+}
+
+.flag:hover {
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px #999;
+    background-color: orange;
+    transform: rotate(180deg);
+    width: 300px;
+    height: 300px;
 }
 
 .hor-stripe {
@@ -56,6 +70,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    transition-property: border-radius;
 }
 
 .vert-stripe {
@@ -66,7 +81,9 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-/*    transform: translateY(-50%);*/
+    transition-property: border-radius, box-shadow;
     
 }
+
+
 
