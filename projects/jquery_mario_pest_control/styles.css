@@ -1,0 +1,95 @@
+.back {
+    background-color: #98dcf9;
+}
+
+.invoice-pics {
+    margin-top: 0;
+}
+
+#poop {
+    width: 100%;
+    padding: 0px;
+}
+
+.nav-bar {
+    text-align: center;
+    font-size: 5em;
+    margin-top: 0;
+    color: #fadecb;
+    border: #f1dacf solid 0.25em;
+    background-color: #ce612f;
+    font-family: 'VT323', monospace;
+}
+
+.top-bar {
+    background-color:
+}
+.monster-title {
+    font-family: 'VT323', monospace;
+    background-color: #fcce45;
+    color: #ce612f;
+}
+
+.col-md-4 {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 2.5em;
+}
+
+.invoice-images {
+    height: 150px;
+    width: auto;
+}
+
+.invoice-info {
+    font-family: 'VT323', monospace;
+}
+
+.coin-size {
+    height: 50px;
+    width: auto;
+}
+
+.margin-bot {
+    margin-bottom: 3.5em;
+}
+
+.grand-total {
+    font-size: 20em;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    margin-top: 2.5em;
+}
+
+.grand-total-int {
+    font-family: 'VT323', monospace;
+    text-align: left;
+}
+
+
+.footer {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 0;
+    color: #fadecb;
+    border: #f1dacf solid 0.25em;
+    background-color: #ce612f;
+    font-family: 'VT323', monospace;
+}
+
+.nav {
+    width: 100%;
+}
+
+#email {
+    border-bottom: 0;
+}
+
+#url {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#address {
+    border-top:0;
+}
