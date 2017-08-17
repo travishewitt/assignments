@@ -7,7 +7,7 @@ class Navbar extends React.Component{
                 <ul className = "navBar"> 
                     <li className = "navbar-item"><a>Home</a></li>
                     <li className = "navbar-item"><a>About</a></li>
-                    <li className = "navbar-item"><a>Pog Land</a></li>
+                    <li className = "navbar-item"><a>Contact</a></li>
                 </ul>
             </div>
         )
