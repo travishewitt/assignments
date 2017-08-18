@@ -7,6 +7,7 @@ let tests = {
     two: 2,
     three: 9,
     four: 10,
+    fortyNine: 1000000,
 }
 
 describe("factors solutions", function() {
@@ -21,5 +22,8 @@ describe("factors solutions", function() {
     });
     it("should return all factors of the number 2", function() {
         assert.equal(factor(tests.two), 2);
+    });
+    it("should return all the factors of one million", function() {
+        assert.equal(factor(tests.fortyNine), 49)
     });
 })
