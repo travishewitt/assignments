@@ -1,13 +1,21 @@
 import React from 'react';
+import Link from "./Link.js"
 
 class Navbar extends React.Component{
+    constructor() {
+        super();
+        this.navLinks = ["Home", "About", "Contact"]
+    }
+    genLinks(){
+        return this.navLinks.map((item)=> {
+           return <Link key = {item} name = {item}/>
+        })
+    }
     render() {
         return (
             <div className = "navBar-wrapper">
                 <ul className = "navBar"> 
-                    <li className = "navbar-item"><a>Home</a></li>
-                    <li className = "navbar-item"><a>About</a></li>
-                    <li className = "navbar-item"><a>Contact</a></li>
+                    {this.genLinks()}
                 </ul>
             </div>
         )

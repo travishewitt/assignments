@@ -1,0 +1,19 @@
+.title {
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.content-wrapper {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgs {
+    height: 250px;
+    width: 250px;
+    border: white solid 10px;
+}

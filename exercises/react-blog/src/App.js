@@ -35,8 +35,8 @@ class App extends React.Component {
       ];
     }
         genPosts = function() {
-        return this.posts.map((post)=>{
-            return <Blogpost post = {post}/>
+        return this.posts.map((post, index)=>{
+            return <Blogpost key = {index} post = {post}/>
         })
     }
     render() {
