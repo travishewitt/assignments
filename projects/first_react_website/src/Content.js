@@ -17,7 +17,6 @@ class Content extends React.Component{
             {imgURL: "http://www.inrichting-huis.com/wp-content/afbeeldingen/mooiste-coffee-shops-12.jpg"},
             {imgURL: "http://www.inrichting-huis.com/wp-content/afbeeldingen/mooiste-coffee-shops-11.jpg"},
             {imgURL: "http://www.inrichting-huis.com/wp-content/afbeeldingen/mooiste-coffee-shops-10.jpg"},
-            {imgURL: "http://www.contemporist.com/10-unique-coffee-shop-designs-in-asia/"},
             {imgURL: "http://www.cocokelley.com/wp-content/uploads/2017/02/BH-building-greenhouse-dining-in-london-via-coco-kelley.jpg"},
             {imgURL: "http://68.media.tumblr.com/ae09d880c388107ada88f604fd8f1e85/tumblr_nwuphuxaW31qapuajo1_500.jpg"},
             {imgURL: "http://68.media.tumblr.com/6e3d3efde07ae76f2d038f79b61afc9b/tumblr_ocsik7ZxbV1qkbpm3o1_1280.jpg"},

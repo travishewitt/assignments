@@ -1,0 +1,16 @@
+.parent {
+    height: 100vh;
+    /* "you are going to be a flexbox" */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.child {
+    height: 250px;
+    width: 250px;
+    background-color: maroon;
+    border: 3px solid white;
+    margin: 5px;
+}

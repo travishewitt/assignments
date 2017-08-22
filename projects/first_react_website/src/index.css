@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .title {
     text-align: center;
     font-size: 10em;
@@ -6,14 +10,40 @@
     margin-bottom: 75px;
 }
 
+
+.navWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navglyph {
+    margin: 10px;
+}
+
+.navTitle {
+    margin-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
 .content-wrapper {
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .imgs {
     height: 250px;
     width: 250px;
     border: white solid 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
