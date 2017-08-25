@@ -1,0 +1,22 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 6fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px
+}
+
+.box {
+        background-color: #0069b3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        font-size: 70px;
+        color: white;
+        line-height: 1;
+        font-family: 'hobeaux-rococeaux-background', Helvetica;
+        font-weight: 200;
+        cursor: pointer;
+        transition: all .3s ease;
+}

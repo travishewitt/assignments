@@ -9,28 +9,28 @@ class App extends React.Component {
         super();
         this.posts = [
         {
-            title: "Winds of Change",
+            title: "Winds of Blorp",
             subtitle: "what the sky feels like",
             author: "@emptymind",
             content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi fugiat nulla, consequuntur mollitia, itaque similique velit molestiae quibusdam fugit delectus nihil dignissimos. Porro libero sit sequi magnam atque, neque ratione?"
         },
         {
-            title: "Winds of Fury",
+            title: "Winds of Bloop",
             subtitle: "eye of the storm",
             author: "@emptymind",
             content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi fugiat nulla, consequuntur mollitia, itaque similique velit molestiae quibusdam fugit delectus nihil dignissimos. Porro libero sit sequi magnam atque, neque ratione?"
         },
         {
-            title: "God What?",
-            subtitle: "do you even know?",
+            title: "Gorsh grodd flimtim?",
+            subtitle: "do you even flow?",
             author: "@emptymind",
-            content: "This, right here, is god."
+            content: "This, right here, is snipple slorpgloop."
         },
         {
-        title: "God What?",
-        subtitle: "do you even know?",
-        author: "@emptymind",
-        content: "This, right here, is god."
+            title: "Gromple lorp?",
+            subtitle: "do you even know?",
+            author: "@emptymind",
+            content: "This, right here, is forgle flim flop."
         }
       ];
     }
