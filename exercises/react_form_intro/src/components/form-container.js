@@ -18,8 +18,9 @@ class FormContainer extends React.Component {
     }
     clear = () => {
         this.setState({
-            username: "",
-            password: ""
+            email: "",
+            firstname: "",
+            lastname: ""
         })
     }
     submit = () => {
