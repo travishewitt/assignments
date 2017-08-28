@@ -10,7 +10,7 @@ class Meme extends React.Component {
                     <input placeholder="Img URL" type="text" name="imgUrl" onChange={this.props.handleInput} value={this.props.imgUrl}/>
                     <button type="submit">Meme-o-genesis</button>
                 </form>
-                    <div className="meme row" style={{background: `url('${this.props.meme.imgUrl}')`, backgroundSize: "cover", backgroundPosition: "center"}}>
+                    <div className="meme row" style={{backgroundImage: `url('${this.props.meme.imgUrl}')`, backgroundSize: "cover", backgroundPosition: "center"}}>
                         <div className="upper">{this.props.meme.upperText}</div>
                         <div className="lower">{this.props.meme.lowerText}</div>
                     </div>
