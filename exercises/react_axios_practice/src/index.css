@@ -9,3 +9,19 @@
     padding: 10px;
     font-family: 'Special Elite', cursive;
 }
+
+form {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inherit;
+}
+
+.item-wrapper {
+    height: 300px;
+}

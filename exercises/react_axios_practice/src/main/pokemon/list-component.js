@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import ItemComponent from './item-component.jsx'
+import ItemContainer from '../item/item-container.js'
 
 class ListComponent extends Component {
-    genPokemon() {
-        return this.props.pokemonList.map((item,index)=>{
-            return <ItemComponent key = {index} pokemon = {item}/>
+    genTodo() {
+        return this.props.todoList.map((item,index)=>{
+            return <ItemContainer delete = {this.props.delete} key = {index} todo = {item}/>
         })
     }
     render() {
         return (
             <div className="container">
-                <h1 className="jumbotron">Pokémon Brah</h1>
                 <div className="row">
-                    {this.genPokemon()}
+                    {this.genTodo()}
                 </div>
             </div>
         );
