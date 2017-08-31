@@ -26,6 +26,7 @@ class MemeContainer extends React.Component {
             }
         })
     }
+    genMemes () {}
     render () {
         return <Meme handleInput={this.handleInput} {...this.state} handleSubmit={this.handleSubmit}/>
     }

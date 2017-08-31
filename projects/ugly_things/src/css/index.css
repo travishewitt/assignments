@@ -1,0 +1,13 @@
+.formWrapper {
+    text-align: center;
+}
+
+.postWrapper {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.imgUrl {
+    width: 350px;
+    height: auto;
+}
