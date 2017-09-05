@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Form from './form.js';
 
 import * as actionCreators from '../redux/actions/index.js';
@@ -9,14 +9,15 @@ class FormContainer extends React.Component {
         super();
         this.state = {
             inputs: {
-                title: "",
-                description: ""
+                food: "",
+                quantity: "",
+                kcals: "",
+                protein: ""
             }
-            
         }
     }
-    handleInput = (e) => {
-        e.persist()
+    input = (e) => {
+        e.persist();
         this.setState((prevState) => {
             return {
                 inputs: {
@@ -24,31 +25,29 @@ class FormContainer extends React.Component {
                     [e.target.name]: e.target.value
                 }
             }
-        })   
-        console.log(this.state)
+        })
     }
-    handleSubmit = (e) => {
+    submit = (e) => {
         e.preventDefault();
-        this.props.addItem(this.state.inputs);
+        this.props.addMeal(this.state.inputs);
         this.clear();
     }
     clear = () => {
         this.setState({
             inputs: {
-                title: "",
-                description: ""
+                food: "",
+                quantity: "",
+                kcals: "",
+                protein: ""
             }
         })
     }
     render() {
-        return (
-            <Form handleSubmit = {this.handleSubmit} handleInput = {this.handleInput} inputs = {this.state.inputs}/>
+        return(
+            <Form submit = {this.submit} input = {this.input} meal = {this.state.inputs}/>
         )
     }
 }
-
-
-
 const mapStateToProps = (state) => {
     return state
 }

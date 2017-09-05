@@ -1,3 +1,7 @@
+.formWrapper {
+    text-align: center;
+}
+
 .meme {
     height: 250px;
     width: 250px;
@@ -5,9 +9,6 @@
     margin: auto;
     margin-top: 50px;
 }
-
-
-
 
 .upper {
     color: white;
@@ -27,8 +28,11 @@
     font-size: 1.5em;
 }
 
-.form {
-    padding: 50px;
-    text-align: center;
-    margin: auto;
+
+.show {
+    display: inherit
+}
+
+.hide {
+    display: none
 }

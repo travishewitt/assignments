@@ -1,9 +1,11 @@
 let redux = require("redux");
 let createStore = redux.createStore;
 
+
 let defaultState = {
     comments: []
 }
+
 
 let post = (comment) => {
     return {
@@ -11,6 +13,7 @@ let post = (comment) => {
         comment
     }
 }
+
 
 let mainReducer = (state = defaultState, action) => {
     switch(action.type) {
@@ -22,7 +25,16 @@ let mainReducer = (state = defaultState, action) => {
     }
 }
 
-let store = createStore(mainReducer);
-store.dispatch(post("Greetings fellas"))
 
-console.log(store.getState())
+let store = createStore(mainReducer);
+
+store.subscribe(() => {
+    console.log(store.getState())
+})
+
+store.dispatch(post("Greetings fellas"))
+store.dispatch(post("oh boy, here i go buying shoes again"))
+
+
+
+

@@ -22,3 +22,19 @@ export function deleteItem(index) {
         index: index
     }
 }
+
+export let addItem = (item) => {
+    return {
+        type: "ADD_ITEM",
+        item
+    }
+}
+
+export let editItem = (editedItem, index) => {
+    return {
+        type: "EDIT_ITEM",
+        editedItem,
+        index
+
+    }
+}
