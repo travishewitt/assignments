@@ -39,7 +39,7 @@ Database.prototype.findOneAndUpdate = function(id, editedItem) {
     this.items.forEach((item, index) => {
         if(id === item._id) {
             oldItem = this.items[index]
-            newItem = Object.assign({}, oldItem, editedItem)
+            newItem = Object.assign(oldItem, editedItem)
         }
     })
     return newItem
