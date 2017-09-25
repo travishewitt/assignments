@@ -1,22 +1,21 @@
-import axios from 'axios'
-const url = "co//api.vschool.io/travis/todo/"
+import axios from 'axios';
+const url = "http://localhost:8080/bounties/";
 
 export let loadData = () => {
     return (dispatch) => {
         axios.get(url).then((response) => {
-            let todos = response.data
-            console.log(todos)
-            dispatch(setData(todos))
+            let bounties = response.data.data
+            dispatch(setData(bounties))
         })
-        .catch((err) =>  {
+        .catch((err) => {
             console.error(err)
         })
     }
 }
 
-export let addItem = (todo) => {
+export let addItem = (bounty) => 
     return (dispatch) => {
-        axios.post(url, todo).then((response) => {
+        axios.post(url, bounty).then((response) => {
             dispatch(loadData())
         })
         .catch((err) => {
@@ -31,10 +30,9 @@ export let deleteItem = (id) => {
             dispatch(loadData())
         })
         .catch((err) => {
-            console.error(err)
+            console.error
         })
     }
-
 }
 
 export let editItem = (id, editedItem) => {
@@ -43,14 +41,14 @@ export let editItem = (id, editedItem) => {
             dispatch(loadData())
         })
         .catch((err) => {
-            console.error(err)
+            console.error
         })
     }
 }
 
-export let setData = (todos) => {
+export let setData = (bounties) => {
     return {
         type: "SET_DATA",
-        todos
+        bounties
     }
 }

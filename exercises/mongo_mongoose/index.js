@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use('/celebrity', celebrityRoute);
 app.use('/villains', villainRoute)
 
-mongoose.connect('mongodb://localhost/celebrity', () => {
+mongoose.connect('mongodb://localhost/blim', () => {
     console.log("connected to mongodb");
     app.listen(PORT, () => {
         console.log(`LISTENING ON PORT ${PORT}`)
